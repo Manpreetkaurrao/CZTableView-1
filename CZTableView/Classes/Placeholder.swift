@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 /// The Placeholder object, is used to create placeholders
-public struct Placeholder {
+@objc public struct Placeholder {
     
     /// The data of the placeholer
     public var data: PlaceholderData?
