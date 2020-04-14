@@ -10,11 +10,11 @@ import UIKit
 
 
 /// The delegate of a TableView/CollectionView object must adopt the PlaceholderDelegate protocol. the method of the protocol allow the delegate to perform placeholders action.
-public protocol PaginateDelegate {
+@objc public protocol PaginateDelegate {
     func didCallRefreshTableView(for tableView:TableView)
     func paginate(to page: Int,for tableView:TableView)
 }
-public protocol PlaceholderDelegate: class {
+@objc public protocol PlaceholderDelegate: class {
     
     /// Performs the action to the delegate of the table or collection view
     ///
